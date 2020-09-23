@@ -1,3 +1,10 @@
+## QUESTION ::
+#	Consider a normal population N(5,2^2). Draw 5, 15, 30, 50, 100, 500 and 1000 samples of size 5 using R Software. 
+# Compute E(y-bar), E(s^2) and make density plots for each case.  Repeat the above process for sample sizes 15, 30, 100 and 1000. 
+# Present all the results suitably. Prepare superimposed graphs.
+
+## SOLUTION ::
+
 simulation_with_seperate_graphs<- function(sample_points)
 {
   par(mfrow=c(ceiling(length(sample_points)/2),2))
