@@ -1,13 +1,13 @@
 ## QUESTION ::
-#Draw a random sample of size 10 using R statistical software  from 
-#(i)	Binominal population with parameter 12 and 0.25.
-#(ii)	Poisson distribution with parameter 5.2
-#(iii)	Normal distribution with mean 3.5 and variance 5.75
-#(iv)	bivariate normal population with parameters  
-#and compute sample mean and sample variance. Try to observe the difference by drawing samples several times with the same as well as different populations. 
-#Increase the sample size and observe the differences in the results.  
+# Draw a random sample of size 10 using R statistical software  from 
+# (i)	Binominal population with parameter 12 and 0.25.
+# (ii)	Poisson distribution with parameter 5.2
+# (iii)	Normal distribution with mean 3.5 and variance 5.75
+# (iv)	bivariate normal population with parameters  
+# and compute sample mean and sample variance. Try to observe the difference by drawing samples several times with the same as well as different populations. 
+# Increase the sample size and observe the differences in the results.  
 
-##SOLUTION ::
+## SOLUTION ::
 
 # 1) Binomial(12, 0.25) population :(popln mean =3, popln var=2.25)
 
