@@ -20,7 +20,7 @@ sprintf('Estimate of sample variance : %.3f',var(data))
 #(UPPER 0.025% CRITICAL VALUE OF T-DISTN : 12.70620)
 lower_confidence_limit = mean(data) - 12.70620*sqrt(var(data))
 upper_confidence_limit = mean(data) + 12.70620*sqrt(var(data))
-sprintf("95-percent Confidence Interval of mean is :(%.3f , %.3f)",lower_confidence_limit,upper_confidence_limit)
+sprintf("95-percent Confidence Interval of mean is :(%.3f , %.3f)", lower_confidence_limit, upper_confidence_limit)
 
 
 # CASE 2: (SRSWR)
