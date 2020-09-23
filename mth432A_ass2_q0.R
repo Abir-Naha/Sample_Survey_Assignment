@@ -1,3 +1,9 @@
+##THE QUESTION ::
+#The following data give the geographical area (in acres) under paddy for 58 villages. Draw a sample of eight villages using SRSWOR and SRSWR, find an estimate of average area per village under paddy, an estimate of its variance and its 95% confidence interval. Execute it in R Software.
+#98,  270, 79, 273, 130,	158, 116, 194,  41, 33, 78, 56, 58, 19, 64, 81, 141, 58, 29, 46, 93, 127, 114, 88, 108, 58, 47, 69, 44, 56, 102, 102, 187, 161, 179, 76, 137, 179, 76, 137, 127, 104, 117, 170, 210, 101, 222, 223, 96, 114, 318, 272, 155, 292, 240, 201, 261, 189 
+
+##SOLUTION::
+
 area<-c(98,  270, 79, 273, 130, 158, 116, 194,  41, 33, 78, 56, 58, 19, 64, 81, 141, 58, 29, 46, 93, 127, 114, 88, 108, 58, 47, 69, 44, 56, 102, 102, 187, 161, 179, 76, 137, 179, 76, 137, 127, 104, 117, 170, 210, 101, 222, 223, 96, 114, 318, 272, 155, 292, 240, 201, 261, 189 )
 
 # CASE 1: (SRSWOR)
